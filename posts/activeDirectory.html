@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Active Directory and Domain Controller Implementation - Steven's InfoSec Blog</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Steven's InfoSec Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#articles">Articles</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="blog-post">
+        <div class="container">
+            <h2>Active Directory and Domain Controller Implementation in a Small Business</h2>
+            <p>Published on August 23, 2024</p>
+            <img src="assets/active-directory.jpg" alt="Active Directory and Domain Controller">
+            <p>Active Directory (AD) is a directory service developed by Microsoft that manages and stores information about resources in a network. In a small business, implementing Active Directory can streamline operations, enhance security, and simplify IT management.</p>
+
+            <h3>What is a Domain Controller?</h3>
+            <p>A Domain Controller (DC) is a server that responds to authentication requests in a Windows Server domain. It runs Active Directory and manages user permissions and access within the network, ensuring that the right users have the right access to resources.</p>
+
+            <h3>Why Implement Active Directory?</h3>
+            <p>Implementing Active Directory in a small business brings several benefits. It allows for centralized management of user accounts and resources, making IT administration more efficient. Security is also improved, as businesses can enforce consistent security policies across the network, including password policies and access controls. Furthermore, Active Directory is scalable, making it suitable for businesses that plan to grow, as it can easily accommodate new users and resources.</p>
+
+            <h3>Steps to Implement Active Directory</h3>
+            <p>To implement Active Directory in a small business, you start by setting up a Windows Server that will act as the Domain Controller. Once the server is set up, you install Active Directory Domain Services (AD DS), allowing the server to function as a Domain Controller. After installation, you create a domain, which will serve as the central hub for managing user accounts, computers, and resources. Finally, you add users and computers to Active Directory, giving you control over who has access to what resources.</p>
+
+            <h3>Conclusion</h3>
+            <p>Active Directory is essential for small businesses looking to simplify IT management and enhance security. By using a Domain Controller and Active Directory, you can centralize control, enforce consistent security policies, and scale your network as your business grows. This approach ensures that your IT operations remain organized, secure, and efficient.</p>
+
+            <h3>Sidenotes</h3>
+            <p>Microsoft also has an Azure service for Active Directory if the business chooses to not host onsite Active Directory on company owned servers. This service that Microsoft offers has a lot of upsides such as concurrent operations with minimal downtime. The use of Azure Active Directory may be of great benefit for employees working remotely as well.</p>
+
+
+            <a href="../index.html" class="cta-button">Back to Home</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&
