@@ -1,2 +1,2 @@
-A blog detailing my IT and infosec whims.
+A blog detailing my IT and infosec whims
 
